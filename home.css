@@ -1,0 +1,14 @@
+img {
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 120px; height: 50px;
+}
+
+*{ 
+    font-family: Impact;      
+    text-align: Center; 
+     
+} 
+body{ 
+    background-color:#7A8B8Bc; 
+}
