@@ -4,11 +4,16 @@ img {
     width: 120px; height: 50px;
 }
 
-*{ 
+form{ 
     font-family: Impact;      
     text-align: Center; 
-     
 } 
+
+h1 {
+    font-family: Impact;
+    text-align: center;
+}
+
 body{ 
     background-color:#7A8B8Bc; 
 }
