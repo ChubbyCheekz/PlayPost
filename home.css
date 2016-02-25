@@ -1,24 +1,35 @@
-img {
-    margin-top: 5px;
-    margin-left: 580px;
+.imgclass img {
     width: 200px; height: 70px;
 }
+.imgclass {
+    margin-top: 5px;
+    margin-left: 580px;
+}
 
-form{ 
-    font-family: Impact;      
-    text-align: Center; 
-} 
 
 h1 {
     font-family: Impact;
     text-align: center;
 }
 
-body{ 
-    background-color:#7A8B8Bc; 
-}
-
-input{
+.homebtns input{
     font-family: Impact;      
     text-align: Center;
+    background-color: #4567ED;
+    border: none;
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.homebtns {
+    margin-top: 5px;
+    width: 600px;
+    position: absolute;
+    top: 5px;
+}
+
+.bodydiv {
+    background-color: #6495ED;
+    margin-top: 0px;
 }

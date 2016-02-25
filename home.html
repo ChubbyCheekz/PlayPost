@@ -2,17 +2,21 @@
 <html>
     <head>
         <title>PlayPost - Home</title>
-        <link type="text/css" rel="stylesheet" href="home.css"/>
+        <link type="text/css" rel="stylesheet" href="home.css" />
     </head>
     <body>
-        
-<img src="PlayPostLogo.png"/>
-
-        <form id=homebuttons>
-            <input type="button" value="About" onclick="window.location='about.html';">
-            <input type="button" value="Explore" onclick="window.location='explore.html';">
-            <input type="button" value="Account" onclick="window.location='account.html';"> 
-            <input type="button" value="People" onclick="window.location='people.html';"> 
-        </form>
+        <div class="bodydiv">
+            <div class="imgclass">
+                <img src="PlayPostLogo.png" />
+            </div>
+            <div class="homebtns">
+                <form id=homebuttons>
+                    <input name="about" type="button" value="About" onclick="window.location='about.html';">
+                    <input name="explore" type="button" value="Explore" onclick="window.location='explore.html';">
+                    <input name="account" type="button" value="Account" onclick="window.location='account.html';">
+                    <input name="people" type="button" value="People" onclick="window.location='people.html';">
+                </form>
+            </div>
+        </div>
     </body>
 </html>
